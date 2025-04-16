@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header class=" h-16 w-full">
+        <nav class="flex h-16 w-full justify-between  bg-white">
+            <div class="logo flex w-44 font-bold justify-around items-center h-full">
+                <span class="material-symbols-outlined  ">
+                    menu
+                </span>
+                <img src="svg/logo.svg" class="h-16 w-32" alt="">
+            </div>
+            <div class="input flex justify-center  items-center w-1/2">
+                <input placeholder="Search Now" type="text"
+                    class="h-12 w-[80%] rounded-l-full outline-1 px-4 cursor-pointer border-4 ">
+                <div
+                    class="searchicon  h-12 flex items-center rounded-r-full border-2 cursor-pointer justify-center w-12">
+                    <span class="material-symbols-outlined ">
+                        search
+                    </span>
+                </div>
+                <div class="audio w-10 p-2 mx-3 flex border-2 cursor-pointer items-center justify-center rounded-full">
+                    <span class="material-symbols-outlined">
+                        mic
+                    </span>
+                </div>
+            </div>
+            <div class="singin gap-5 flex justify-end items-center">
+                <span class="material-symbols-outlined">
+                    more_vert
+                </span>
+                <div
+                    class="button border-4 text-blue-500 items rounded-full flex justify-center items-center w-28 h-10 hover:bg-blue-100">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <button>Sing up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class=" h-[calc(100vh-64px)] flex w-full gap-10">
+        <div class="left border-4 border-t-0  h-[calc(100vh-64px)] w-80 overflow-x-auto ">
+            <div class="home flex justify-end gap-1 items-center flex-col  w-full h-48 border-b-4">
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    Home
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <img src="svg/shorts.svg" alt="">
+                    Shorts
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        subscriptions
+                    </span>
+                    Subscriptions
+                </div>
+            </div>
+            <div class="profile w-full h-32  flex justify-center gap-1 items-center flex-col border-b-4">
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    You
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        history
+                    </span>
+                    History
+                </div>
+            </div>
+            <div class="sing-in w-full h-36 flex justify-cente items-start p-2 flex-col gap-3 border-b-4 ">
+                <div class="w-3/4">Sign in to like videos, comment and subscribe.</div>
+                <div
+                    class="button border-4 text-blue-500 items rounded-full flex justify-center items-center w-28 h-10 mx-4 hover:bg-blue-100">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <button>Sing up</button>
+                </div>
+            </div>
+            <div class="Explore w-full h-[890px]  flex justify-start gap-1 items-start flex-col border-b-4 ">
+                <h4 class="font-bold  text-xl  mx-3 my-4">Explore</h4>
+                <div class="tra h-[630px] w-full flex flex-col  items-center gap-7">
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <span class="material-symbols-outlined">
+                            local_fire_department
+                        </span>
+                        Tranding
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <span class="material-symbols-outlined">
+                            shopping_bag
+                        </span>
+                        Shoping
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/music.svg" alt="">
+                        Music
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/films.svg" alt="">
+                        Films
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/live.svg" alt="">
+                        Live
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/games.svg" alt="">
+                        Gaming
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/news.svg" alt="">
+                        News
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/sports.svg" alt="">
+                        Sports
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/course.svg" alt="">
+                        Course
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/fasion.svg" alt="">
+                        Fashion & beauty
+                    </div>
+                    <div
+                        class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                        <img src="svg/podcast.svg" alt="">
+                        Podcasts
+                    </div>
+                </div>
+            </div>
+            <div class="more flex justify-center gap-1 items-center flex-col  w-full h-56 border-b-4">
+                <h4 class="font-bold  text-xl  mx-3 my-4">More from YouTube</h4>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <img src="svg/youtube-p.svg" alt="">
+                    YouTube Premium
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <img src="svg/youtube-m.svg" alt="">
+                    Youtube Music
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <img src="svg/youtube-k.svg" alt="">
+                    Youtube Kids
+                </div>
+            </div>
+            <div class="setting flex justify-center gap-1 items-center flex-col  w-full h-64 border-b-4">
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                    Settings
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        flag
+                    </span>
+                    Report History
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        help
+                    </span>
+                    Help
+                </div>
+                <div
+                    class="flex justify-start p-3 gap-4 items-center cursor-pointer hover:bg-slate-200 h-12 rounded-xl w-full">
+                    <span class="material-symbols-outlined">
+                        feedback
+                    </span>
+                    Sand feedback
+                </div>
+            </div>
+            <div class="About text-sm  w-full h-2 border-b-4">
+                <span>About</span>
+                <span>Press</span>
+                <span>Copyright</span>
+                <span>Contact</span>
+                <span> usCreators</span>
+                <span>Advertise</span>
+                <span>Developers</span>
+                <span>TermsPrivacyPolicy & Safety</span>
+                <span>How YouTube works</span>
+                <span>Test new features</span>
+                <div class="mx-2 my-4">© 2025 Google LLC</div>
+            </div>
+        </div>
+        <div class="right h-full w-[1280px] ">
+            <div class="options h-16 w-full flex justify-start gap-3 text-xs font-bold items-center">
+                <span
+                    class=" px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">All</span>
+                <span
+                    class=" px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Music</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Indian
+                    pop music</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Dance</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Anime</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Cartoon</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Movies</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">TMKOC</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">The
+                    Kapil Sharma Show</span>
+                <span
+                    class="px-4 py-2  bg-slate-300 cursor-pointer hover:bg-slate-400 flex justify-center items-center rounded-xl ">Gaming</span>
+
+
+            </div>
+            <div class="videos md:h-screen h-[calc(100%-64px)] w-full flex flex-wrap  overflow-x-scroll ">
+                <div class="w-full h-1/2 flex flex-wrap mt-3 gap-3 ">
+                    <div class="videobox  w-[32%] h-80  ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/nSNkwIvlWJU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBvlfptTlul9b2L0bPvwfD0tKoOPg"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/ytc/AIdro_muzDjR0hfGdlXBS-2A8NfR-Q9e-PO96K-gxrm2i1jSStI7=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Full Match- Brock
+                                        Lesner VS Roman Reigns</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">WWE</div>
+                                    <div class="cursor-pointer">103M views . 4 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/5wGV6JVTcWU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBvYPLcpGVHt_77YXOXJEVSmxtzkw"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/6p7LTvjA8wmweYTfSZYsJ5kOOoDSsNj_6MZO2lIugeBM17i_244I-j-7fYZisHGiQEMLpgqoMA=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Jethalal makes fun of Bhide
+                                    </div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">Sony</div>
+                                    <div class="cursor-pointer">17M views . 5 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/av8kw7P9DMc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2hRajco_ev488RdGAHR7s084MEw"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/ytc/AIdro_kKGaEKaafkVObI-xJQPOipJ-B-W2vdD8fuv4oNEW7d894=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Learning about Snakes</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">National Geographic India</div>
+                                    <div class="cursor-pointer">10.3M views.6 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shorts  w-full h-2/3  flex gap-4">
+                    <div class="short cursor-pointer h-full w-48 rounded-xl   ">
+                        <img src="https://i.ytimg.com/vi/WvdE429EyKI/oar2.jpg" class="rounded-xl h-5/6 w-full" alt="">
+                        <h5 class="font-bold ">You know you are dead when... #anime #short</h5>
+                        <p class="text-sm text-slate-800 hover:text-slate-600 ">3.1M views</p>
+                    </div>
+                    <div class="short cursor-pointer h-full w-48 rounded-xl   ">
+                        <img src="https://i.ytimg.com/vi/phnswF7DiHQ/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLAmnv6ZFtlQ3sVUD-pNV095fKKAbw"
+                            class="rounded-xl h-5/6 w-full" alt="">
+                        <h5 class="font-bold ">Anime strongest males #anime #short</h5>
+                        <p class="text-sm text-slate-800 hover:text-slate-600 ">3K views</p>
+                    </div>
+                    <div class="short cursor-pointer h-full w-48 rounded-xl   ">
+                        <img src="https://i.ytimg.com/vi/mbxu24Ni7o4/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLCTzPuNVkE0tXsTeddE_4M5HtY-0A"
+                            class="rounded-xl h-5/6 w-full" alt="">
+                        <h5 class="font-bold ">Gojo powers Red Blue #gojo #short</h5>
+                        <p class="text-sm text-slate-800 hover:text-slate-600 ">8.7K views</p>
+                    </div>
+                    <div class="short cursor-pointer h-full w-48 rounded-xl   ">
+                        <img src="https://i.ytimg.com/vi/YKcW1y0UN7w/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLABwIgMrzosyV-nm1Zkm_q9yS7T6w"
+                            class="rounded-xl h-5/6 w-full" alt="">
+                        <h5 class="font-bold ">Sigma yash replay #shortsfeed#anime...</h5>
+                        <p class="text-sm text-slate-800 hover:text-slate-600 ">1M views</p>
+                    </div>
+                    <div class="short cursor-pointer h-full w-48 rounded-xl   ">
+                        <img src="https://i.ytimg.com/vi/CePaLLzCDe0/oardefault.jpg?sqp=-oaymwEoCMAEENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBHBob3XIF3mvXkb7yh1xV6GljaHw"
+                            class="rounded-xl h-5/6 w-full" alt="">
+                        <h5 class="font-bold ">Beo: [Manga edit] #sigma #edit...</h5>
+                        <p class="text-sm text-slate-800 hover:text-slate-600 ">3.1M views</p>
+                    </div>
+                </div>
+                <div class="w-full h-1/2 flex flex-wrap mt-3 gap-3 ">
+                    <div class="videobox  w-[32%] h-80  ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/IzTId_PDJic/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC7-IMk_bjCUDCXGDUwA6ao3zhDEA"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/lyrdoID4lNCb1PJwDbQP33YGGPBe_IoKv63ssxYEp3XIKM860LwG3BQD1be4Kje_FBkR00zQiA=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">How the Earth born</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">CURIO</div>
+                                    <div class="cursor-pointer">60M views . 2 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/TyQbkjCfpfg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBZL8t0ztz204GCaJETTF5jLyhu1Q"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/kzbcaIXWAaQjeR1HTuy6C5Ej0Js5GP-sTjE2U2g_kFCU-qPBpKppjoZJs1FHwBK9H_DP-KFMQOw=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Naruto vs Pain - Full fight
+                                    </div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">Anime edi</div>
+                                    <div class="cursor-pointer">909K views . 4 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/ErMSHiQRnc8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAks3evlrbDr57RoaFmDfAkZ2IaDA"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/ytc/AIdro_m2cWJR2ufhrX0NpQWi7_UJriTaduV-vRDS4xx5vp1hLPk=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Animation vs. Physice</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">Alan Becker</div>
+                                    <div class="cursor-pointer">35M views.3 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-1/2 flex flex-wrap mt-3 gap-3 ">
+                    <div class="videobox  w-[32%] h-80  ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/XO8wew38VM8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC9Cg8tgP0eer0-eKAkzP5fXuDvzg"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/VunTf0NzCeboiPjbesBdnQuxaF3Lja7UGRbBGQAWRJgMSTj9TTLO3pS1X9qPOJGCNnmPrXeY=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Millinaire Full Song (video)</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">T-Serise</div>
+                                    <div class="cursor-pointer">133M views . 2 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/a0G3TWtN1S4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBp51xygJDIuSHVfPi5h_m2f98Igg"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/ytc/AIdro_n6rCnXvBYGxRd-gdNXLc2pxyX7ClUTYGhEiP3g6vpWKnI=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Looking for Ravan Lanka
+                                    </div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">MR. INDIAN HACKER</div>
+                                    <div class="cursor-pointer">17M views . 8 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/7jJXuoeUQEg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDgZyhcc5B7N9LHVdMSu81wTj-NEA"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://i.ytimg.com/vi/7jJXuoeUQEg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDgZyhcc5B7N9LHVdMSu81wTj-NEA"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Sanam Teri Kasam(Lyrics)</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">R2C</div>
+                                    <div class="cursor-pointer">13M views.2 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-1/2 flex flex-wrap mt-3 gap-3 ">
+                    <div class="videobox  w-[32%] h-80  ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/GRxDMWyqMgs/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCE6vOMk5zTwyIpGwZGZQyd2ctIsA"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/qgPOiHwDlKDuvZm-gvhDGkvABoi4MnNAS8J9hloDvUqwukzCMf53IncFJVlzWlLC_RZahCJF=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">CHAINSAW MAN|Official in Hindi </div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">Rigorous Realism</div>
+                                    <div class="cursor-pointer">103K views . 2 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/5wGV6JVTcWU/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBvYPLcpGVHt_77YXOXJEVSmxtzkw"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/6p7LTvjA8wmweYTfSZYsJ5kOOoDSsNj_6MZO2lIugeBM17i_244I-j-7fYZisHGiQEMLpgqoMA=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Jethalal makes fun of Bhide
+                                    </div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">Sony</div>
+                                    <div class="cursor-pointer">17M views . 5 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/tE6kJryE_uc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDk7pW540xPdnzkVFOvMSC0HsU3_g"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/clr_gjZ54uxIc-xZh0zFKUP__S4_9SDAV5fSmiZs3pW6_F6LX6NSJ-5GicGxXvM6BV4_RIf7rw=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Naruto the Movie</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">
+                                        Naruto Asia Official(English)</div>
+                                    <div class="cursor-pointer">31.1K views. 4 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-1/2 flex flex-wrap mt-3 gap-3 ">
+                    <div class="videobox  w-[32%] h-80  ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/qFtcitdL0ao/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAHANtpxNmwss7LISp2GxEmuHpQQw"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/boJtiLf7VxzoePZY7MiM5OtDeQfR4cs6wC8wrDRw0OcfluU4C6IzGAtcVANpNObRwpnIJGPwyQ=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">
+                                        Your Name 2016 HD Hindi Dubbed Movie</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">SILENT NIKHIL</div>
+                                    <div class="cursor-pointer">989K views . 4 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/1tH4CBRj4Oo/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAZqUoObQxVIUxsIMD8yYnTSxG_dA"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/kbLonHtfCIGKlLi0oa7h2IZyIV64o-eowdF3FGeNnhGLEVRnh-iXn_GJXH8oEXVzjJj4_SMJtA=s48-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">The Rebirth of Buddha 
+                                    </div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">Happy Science India</div>
+                                    <div class="cursor-pointer">754K views . 5 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videobox  w-[32%] h-80 ">
+                        <div class="video h-48 my-3 w-full rounded-sm  ">
+                            <img src="https://i.ytimg.com/vi/av8kw7P9DMc/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC2hRajco_ev488RdGAHR7s084MEw"
+                                class="w-full rounded-xl h-full object-cover" alt="">
+                        </div>
+                        <div class="channel flex  w-full h-24 justify-center">
+                            <div class="logo w-1/6 flex justify-center items-start">
+                                <img src="https://yt3.ggpht.com/ytc/AIdro_kKGaEKaafkVObI-xJQPOipJ-B-W2vdD8fuv4oNEW7d894=s68-c-k-c0x00ffffff-no-rj"
+                                    class="w-12 rounded-full" alt="">
+                            </div>
+                            <div class="info  w-5/6">
+                                <div class="w-full h-1/2  flex">
+                                    <div class=" w-2/3 h-full text-wrap  font-bold text-xm">Learning about Snakes</div>
+                                    <div class=" w-1/3 h-full flex justify-end items-center">
+                                        <span class="material-symbols-outlined">
+                                            more_vert
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="w-full h-1/2 text-sm text-slate-800 font-bold   flex justify-end flex-col">
+                                    <div class="cursor-pointer hover:text-slate-500">National Geographic India</div>
+                                    <div class="cursor-pointer">10.3M views.6 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+</body>
+
+</html>
